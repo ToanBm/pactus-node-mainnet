@@ -27,14 +27,19 @@ Save all important information in this step (Address validator, Wallet & seed).
 ```Bash
 sed -i.bak '/^\s*[tx_pool]/, /^\s*[/{s/(max_size = )100/\150/;}' $HOME/pactus/config.toml
 ```
-## Useful Command:
+## Start Node:
+```Bash
+sudo screen -S pactus
+```
 ```Bash
 sudo ./pactus-daemon start
 ```
+## Useful Command:
 ### Wallet seed:
 ```Bash
 ./pactus-wallet seed
-### List of Addresses:
+```
+### List of Addr:
 ```Bash
 ./pactus-wallet address all
 ```
