@@ -1,4 +1,21 @@
 # Install Pactus Mainnet Node
+## Upgrade Pactus 1.5.0 (Singapore)
+```Bash
+cd node_pactus && sudo screen -r pactus
+```
+- Ctrl + C, to stop your node
+```Bash
+cd $HOME && rm -rf node_pactus 
+wget https://github.com/pactus-project/pactus/releases/download/v1.5.0/pactus-cli_1.5.0_linux_amd64.tar.gz && \
+tar -xzf pactus-cli_1.5.0_linux_amd64.tar.gz && \
+rm -rf pactus-cli_1.5.0_linux_amd64.tar.gz && \
+mv pactus-cli_1.5.0 node_pactus && cd node_pactus
+```
+```Bash
+sudo ./pactus-daemon start
+```
+## Done!
+....................................................................................
 
 ## Server preparation:
 ```Bash
