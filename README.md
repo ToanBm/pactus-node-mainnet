@@ -1,4 +1,4 @@
-# Install Pactus Mainnet Node
+# Pactus Mainnet Node
 ## Upgrade Pactus 1.5.0 (Singapore)
 ```Bash
 cd node_pactus && sudo screen -r pactus
@@ -16,7 +16,7 @@ sudo ./pactus-daemon start
 ```
 ## Done!
 ....................................................................................
-
+# Install Pactus Mainnet Node
 ## Server preparation:
 ```Bash
 sudo apt update && sudo apt upgrade -y && sudo apt install tmux git curl -y && sudo apt install make clang pkg-config libssl-dev build-essential -y
