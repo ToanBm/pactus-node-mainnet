@@ -5,11 +5,11 @@ cd node_pactus && sudo screen -r pactus
 ```
 - Ctrl + C, to stop your node
 ```Bash
-cd $HOME && rm -rf node_pactus
-wget https://github.com/pactus-project/pactus/releases/download/v1.6.2/pactus-cli_1.6.2_linux_amd64.tar.gz && \
-tar -xzf pactus-cli_1.6.2_linux_amd64.tar.gz && \
-rm -rf pactus-cli_1.6.2_linux_amd64.tar.gz && \
-mv pactus-cli_1.6.2 node_pactus && cd node_pactus
+cd $HOME && rm -rf node_pactus 
+wget https://github.com/pactus-project/pactus/releases/download/v1.6.0/pactus-cli_1.6.0_linux_amd64.tar.gz && \
+tar -xzf pactus-cli_1.6.0_linux_amd64.tar.gz && \
+rm -rf pactus-cli_1.6.0_linux_amd64.tar.gz && \
+mv pactus-cli_1.6.0 node_pactus && cd node_pactus
 ```
 ```Bash
 sudo ./pactus-daemon start
