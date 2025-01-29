@@ -1,15 +1,15 @@
 # Pactus Mainnet Node
-## Upgrade Pactus v1.6.4
+## Upgrade Pactus v1.7.0
 ```Bash
 cd node_pactus && sudo screen -r pactus
 ```
 - Ctrl + C, to stop your node
 ```Bash
 cd $HOME && rm -rf node_pactus 
-wget https://github.com/pactus-project/pactus/releases/download/v1.6.4/pactus-cli_1.6.4_linux_amd64.tar.gz && \
-tar -xzf pactus-cli_1.6.4_linux_amd64.tar.gz && \
-rm -rf pactus-cli_1.6.4_linux_amd64.tar.gz && \
-mv pactus-cli_1.6.4 node_pactus && cd node_pactus
+wget https://github.com/pactus-project/pactus/releases/download/v1.7.0/pactus-cli_1.7.0_linux_amd64.tar.gz && \
+tar -xzf pactus-cli_1.7.0_linux_amd64.tar.gz && \
+rm -rf pactus-cli_1.7.0_linux_amd64.tar.gz && \
+mv pactus-cli_1.7.0 node_pactus && cd node_pactus
 ```
 ```Bash
 sudo ./pactus-daemon start
