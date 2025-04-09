@@ -21,13 +21,13 @@ sudo ./pactus-daemon start
 ```Bash
 sudo apt update && sudo apt upgrade -y && sudo apt install tmux git curl -y && sudo apt install make clang pkg-config libssl-dev build-essential -y
 ```
-## Download Pactus v1.4.0: (amd64)
+## Download Pactus v1.7.1: (amd64)
 ```Bash
-cd $HOME && rm -rf node_pactus && \
-wget https://github.com/pactus-project/pactus/releases/download/v1.4.0/pactus-cli_1.4.0_linux_amd64.tar.gz && \
-tar -xzf pactus-cli_1.4.0_linux_amd64.tar.gz && \
-rm -rf pactus-cli_1.4.0_linux_amd64.tar.gz && \
-mv pactus-cli_1.4.0 node_pactus && cd node_pactus
+cd $HOME && rm -rf node_pactus 
+wget https://github.com/pactus-project/pactus/releases/download/v1.7.1/pactus-cli_1.7.1_linux_amd64.tar.gz && \
+tar -xzf pactus-cli_1.7.1_linux_amd64.tar.gz && \
+rm -rf pactus-cli_1.7.1_linux_amd64.tar.gz && \
+mv pactus-cli_1.7.1 node_pactus && cd node_pactus
 ```
 ## Setup: 
 *Note: It is recommended to run 1-7 validator. Chose 1
